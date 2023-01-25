@@ -1,0 +1,26 @@
+General Purpose Registers:
+
+1.accumulator -> i/p and o/p reg operations : a,ax,eax,rax.
+2.base -> holds address of data : b,bx,ebx,rbx.
+3.counter -> counts,used in loop : cx,eax,rcx.
+4.data -> hold output data : d,dx,edx,rdx.
+
+X  = extended to 16 bits
+E = extended to 32 bits
+R = Rich reg to 64 bits
+
+5.Code Segment-> holds the address of code segment.
+6.Data Segment-> holds the address of data segment.
+7.Stack Segment-> holds the address of stack segment.
+8.Extra Segment-> holds address of the data segment
+
+9.Source Index-> points the source operand 
+10.Destination Index-> points the destination operand 
+
+11.Instrction Pointer-> holds the stack pointer 
+12.Stack Poiner->points the top of stack 
+
+13.flag Register->holds current status of the program
+
+14.Base Pointer->Base of the top of stack
+
